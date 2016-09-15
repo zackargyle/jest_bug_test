@@ -3,10 +3,12 @@
         "module": "commonjs",
         "target": "es5",
         "outDir": "output",
+        "rootDir": "src",
         "noImplicitAny": false,
         "sourceMap": false
     },
     "exclude": [
+        "__tests__",
         "node_modules"
     ]
 }
