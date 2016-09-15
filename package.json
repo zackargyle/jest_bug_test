@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "go": "tsc && node output/testMe.js",
     "test": "jest"
   },
   "repository": {
