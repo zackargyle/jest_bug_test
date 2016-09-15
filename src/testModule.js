@@ -1,6 +1,6 @@
 let Etcd = require("node-etcd");
 
-export function makeEtcd() {
+module.exports = function makeEtcd() {
  let etcd = new Etcd();
  return etcd;
 }
