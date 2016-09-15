@@ -1,5 +1,5 @@
-let t = require('./testModule');
-let etcd = t.makeEtcd();
+let makeEtcd = require('./testModule');
+let etcd = makeEtcd();
 
 etcd.get("test", function callback(err, res) {
   console.log("Error: ", err);
